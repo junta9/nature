@@ -1,0 +1,53 @@
+
+.cover {
+    background-image: url(./img/sunrise.jpg);
+    height: 80vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#gallery {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+@media (max-width: 1412px) {
+    #gallery {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+}
+@media (max-width: 1000px) {
+    #gallery {
+        margin-left: 10px;
+        margin-right: 10px;
+        height: 60vh;
+    }
+    #gallery div {
+        width: 15rem!important;
+
+    }
+    input {
+        height: 60px!important;
+    }
+    textarea {
+        width: 300px!important;
+    }
+    form h1 {
+        font-size: 2em!important;
+    }
+    #envoyer {
+        font-size: 1em!important;
+    }
+    .copyright {
+        top: 193%!important;
+        font-size: 1em!important;
+    }
+    footer nav {
+        height: 100px!important;
+    }
+    footer nav ul {
+        flex-direction: row!important;
+        justify-content: space-between!important;
+    }
+}
