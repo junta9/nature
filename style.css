@@ -10,6 +10,10 @@
     margin-left: 200px;
     margin-right: 200px;
 }
+.copyright {
+    top: 40%;
+    left: 5%;
+}
 
 @media (max-width: 1412px) {
     #gallery {
