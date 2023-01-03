@@ -1,18 +1,52 @@
-
 .cover {
     background-image: url(./img/sunrise.jpg);
-    height: 80vh;
+    height: 500px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
+
 #gallery {
     margin-left: 200px;
     margin-right: 200px;
 }
+
 .copyright {
     top: 40%;
     left: 5%;
+}
+
+textarea {
+    resize: none;
+}
+
+@media (min-width: 300px) and (max-width: 600px) {
+    main {
+        height: 100vh;
+    }
+
+    h1 {
+        font-size: 0.8em;
+    }
+
+    .card img {
+        width: 100px;
+    }
+    .cover {
+        display: none!important;
+    }
+    footer a {
+        height: 20px!important;
+        width: 20px!important;
+    }
+    svg {
+        height: 10px;
+    }
+    body {
+        display: none!important;
+    }
+
+
 }
 
 @media (max-width: 1412px) {
@@ -21,36 +55,45 @@
         margin-right: 100px;
     }
 }
+
 @media (max-width: 1210px) {
     #gallery {
         margin-left: 10px;
         margin-right: 10px;
         height: 60vh;
     }
+
     #gallery div {
-        width: 15rem!important;
+        width: 15rem !important;
 
     }
+
     input {
-        height: 60px!important;
+        height: 60px !important;
     }
+
     textarea {
-        width: 300px!important;
+        width: 300px !important;
     }
+
     form h1 {
-        font-size: 2em!important;
+        font-size: 2em !important;
     }
+
     #envoyer {
-        font-size: 1em!important;
+        font-size: 1em !important;
     }
+
     .copyright {
-        font-size: 1em!important;
+        font-size: 1em !important;
     }
+
     footer nav {
-        height: 100px!important;
+        height: 100px !important;
     }
+
     footer nav ul {
-        flex-direction: row!important;
-        justify-content: space-between!important;
+        flex-direction: row !important;
+        justify-content: space-between !important;
     }
 }
